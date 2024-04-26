@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    border: 0.2px solid red;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: roboto;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 250px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+
+    padding: 28px 0;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ------------------------------------------------------------------ */
+
+.main-content {
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 100px 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.main-content-container .headline {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.main-content-container .text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-button {
+    align-self: baseline;
+}
+
+/* ------------------------------------------------------------------ */
+
+.random-info {
+    padding: 0 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-info-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.boxes-container {
+    display: flex;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+}
+
+.one-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.illustration {
+    width: 100px;
+    height: 100px;
+}
+
+/* ------------------------------------------------------------------ */
+
+.quote {
+    padding: 0 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#author {
+    text-align: right;
+}
+
+/* ------------------------------------------------------------------ */
+
+.call-to-action {
+    padding: 0 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------------------------------------------------------ */
+
+.footer {
+    padding: 0 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------------------------------------------------------ */
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
